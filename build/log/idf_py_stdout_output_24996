@@ -1,0 +1,36 @@
+[1/28] Linking C static library esp-idf/espcoredump/libespcoredump.a
+[2/28] Linking C static library esp-idf/perfmon/libperfmon.a
+[3/28] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[4/28] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[5/28] Linking C static library esp-idf/app_trace/libapp_trace.a
+[6/28] Linking C static library esp-idf/mqtt/libmqtt.a
+[7/28] Linking C static library esp-idf/json/libjson.a
+[8/28] Linking C static library esp-idf/unity/libunity.a
+[9/28] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[10/28] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[11/28] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[12/28] Linking C static library esp-idf/console/libconsole.a
+[13/28] Linking C static library esp-idf/spiffs/libspiffs.a
+[14/28] Linking C static library esp-idf/cmock/libcmock.a
+[15/28] Linking C static library esp-idf/fatfs/libfatfs.a
+[16/28] Linking C static library esp-idf/protocomm/libprotocomm.a
+[17/28] Performing build step for 'bootloader'
+[1/1] cd /home/kavin/esp/projects/gps_publisher/build/bootloader/esp-idf/esptool_py && /home/kavin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/kavin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/kavin/esp/projects/gps_publisher/build/bootloader/bootloader.bin
+Bootloader binary size 0x6870 bytes. 0x790 bytes (7%) free.
+[18/28] No install step for 'bootloader'
+[19/28] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/gps_publisher.c.obj
+[20/28] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[21/28] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[22/28] Completed 'bootloader'
+[23/28] Linking C static library esp-idf/main/libmain.a
+[24/28] Generating ld/sections.ld
+[25/28] Building C object CMakeFiles/gps_publisher.elf.dir/project_elf_src_esp32.c.obj
+[26/28] Linking CXX executable gps_publisher.elf
+[27/28] Generating binary image from built executable
+esptool.py v4.6.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/kavin/esp/projects/gps_publisher/build/gps_publisher.bin
+[28/28] cd /home/kavin/esp/projects/gps_publisher/build/esp-idf/esptool_py && /home/kavin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/kavin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/kavin/esp/projects/gps_publisher/build/partition_table/partition-table.bin /home/kavin/esp/projects/gps_publisher/build/gps_publisher.bin
+gps_publisher.bin binary size 0x2f7c0 bytes. Smallest app partition is 0x100000 bytes. 0xd0840 bytes (81%) free.
